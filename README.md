@@ -59,7 +59,7 @@ shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb", 
                  sub="Dmuestrales")
 
-# Aproximación normal de la Binomial (Aproximacion 1).
+# Aproximacion normal de la Binomial (Aproximacion 1).
 shiny::runGitHub(repo="semilleroApps", 
                  user="fhernanb", 
                  sub="aprox")
@@ -75,6 +75,13 @@ shiny::runGitHub(repo="semilleroApps",
 shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="Lognormal")
+
+## Clase 11 ##
+
+# Teorema del Limite Central
+shiny::runGitHub(repo="semilleroApps",
+                 user="fhernanb",
+                 sub="tlc")
 
 ## Clase 16 ##
 
@@ -96,5 +103,4 @@ shiny::runGitHub(repo="semilleroApps",
 shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="Dmuestrales")
-
 ```
