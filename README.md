@@ -10,8 +10,15 @@ Aplicaciones desarrolladas con Shiny por el Semillero de R de la  # Escuela de E
 # Escuela de Estadistica de la Universidad Nacional de Colombia sede Medellin.
 # "https://github.com/fhernanb/semilleroApps"
 
-# Libreria
+## -------------------------------------------------------------------------- ##
+
+# Instalar la libreria
+install.packages("shiny")
+
+# Cargar la Libreria
 require(shiny)
+
+## -------------------------------------------------------------------------- ##
 
 ## Clase  5 ##
 
@@ -30,6 +37,8 @@ shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb", 
                  sub="aprox")
 
+## -------------------------------------------------------------------------- ##
+
 ## Clase 6 ##
 
 # Distribucion de Poisson.
@@ -46,6 +55,8 @@ shiny::runGitHub(repo="semilleroApps",
 shiny::runGitHub(repo="semilleroApps", 
                  user="fhernanb", 
                  sub="Uniforme")
+
+## -------------------------------------------------------------------------- ##
 
 ## Clase 7 ##
 
@@ -64,6 +75,8 @@ shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb", 
                  sub="aprox")
 
+## -------------------------------------------------------------------------- ##
+
 ## Clase 8 ##
 
 # # Distribucion Exponencial
@@ -76,12 +89,16 @@ shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="Lognormal")
 
+## -------------------------------------------------------------------------- ##
+
 ## Clase 11 ##
 
 # Teorema del Limite Central
 shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="tlc")
+
+## -------------------------------------------------------------------------- ##
 
 ## Clase 16 ##
 
@@ -90,6 +107,8 @@ shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="Dmuestrales")
 
+## -------------------------------------------------------------------------- ##
+
 ## Clase 18 ##
 
 # Distribucion muestral F-Snedecor
@@ -97,10 +116,14 @@ shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="Dmuestrales")
 
+## -------------------------------------------------------------------------- ##
+
 ## Clase 20 ##
 
 # Distribucion muestral Chi-Cuadrado
 shiny::runGitHub(repo="semilleroApps",
                  user="fhernanb",
                  sub="Dmuestrales")
+
+## -------------------------------------------------------------------------- ##Up
 ```
